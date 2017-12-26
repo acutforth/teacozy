@@ -17,6 +17,8 @@ header{
   z-index: 1;
   align-items: center;
   justify-content: space-between;
+  background-color: black;
+  display: flex;
 }
 
 header img{
@@ -42,3 +44,70 @@ a{
   color: seashell;
   text-decoration: underline;
 }
+
+/*Main Content*/
+
+div{
+  display: block;
+}
+
+h2, h3, h4{
+  margin: 0px;
+  padding: 10px;
+}
+
+.main{
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+/*Mission Container*/
+
+#mission{
+  height: 700px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  padding-top: 70px;
+  margin: auto;
+}
+
+#mission .content{
+  background-color: black;
+  width: 100%;
+
+}
+
+/*Featrued Tea Container*/
+
+#featured{
+  height: 700px;
+  width: 1000px;
+  padding-top: 70px;
+  margin: auto;
+}
+
+.container-items{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item{
+  padding: 5px;
+}
+
+.item img{
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.item span{
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+}
+
+/*Location Container*/
