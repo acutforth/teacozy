@@ -151,8 +151,18 @@ h2, h3, h4{
 
 /*Contact Info*/
 
+#contact{
+  height: 200px;
+}
+
 h5{
   text-align: center;
 }
 
 /*Footer*/
+
+#footer h5{
+  display: flex;
+  align: left;
+  padding-left: 20px;
+}
