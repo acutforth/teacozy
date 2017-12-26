@@ -5,6 +5,7 @@ body{
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  margin: 0;
 }
 
 /*Header Section*/
@@ -70,12 +71,14 @@ h2, h3, h4{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   padding-top: 70px;
   margin: auto;
+  display: flex;
+  align-items: center;
 }
 
 #mission .content{
   background-color: black;
   width: 100%;
-
+  margin: auto 0;
 }
 
 /*Featrued Tea Container*/
